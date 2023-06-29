@@ -1,0 +1,65 @@
+/* CSS for loginbox */
+.loginbox {
+    width: 500px;
+    background: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.loginbox h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: #000;
+}
+
+.loginbox table {
+    width: 100%;
+}
+
+.loginbox td {
+    padding: 10px 0;
+}
+
+.loginbox input[type="text"],
+.loginbox input[type="int"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"] {
+    margin-left:40%;
+    border: none;
+    outline: none;
+    width:90px;
+    height: 30px;
+    background: #04AA6D;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #808080;
+    color: #000;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}

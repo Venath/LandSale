@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	<title>Ceylonland co</title>
+	<link rel="icon" href="logo.png">
+	<link rel="stylesheet" href="project001.css">
+	<link rel="stylesheet" href="land.css">
+</head>
+<body>
+
+	<header>
+		<a href="home.php"><img src="logo/logo.png" width="200px" height="100px"></a>
+		<a><img src="user.png" width="60px" height="60px" style="float:right; margin:20px 20px"></a>
+	</header>
+
+	<div class="navbar">
+		<a href="home.php"><ion-icon name="home-outline"></ion-icon>Home</a>
+		<a href="Aboutus.html">About us</a>
+		<a href="Login.html"><ion-icon name="log-in-outline"></ion-icon>Login			</a>
+		<a href="Register.php">Register</a>
+		<a class="active" href="Lands.html">Lands</a>
+		<a href="Sell.html">Sell Your Lands</a>
+
+		<div class="search">
+			<a href="Search.php"><ion-icon name="search-outline"></ion-icon>Search for your land</a>
+		</div>
+
+	</div>
+
+	<hr>
+
+	<div class="container">
+
+		<!-- Full-width images with number text -->
+		<div class="mySlides">
+			<img src="elite destiny/destiny5.jpg" style="width:50%;height:50%">
+		</div>
+
+		<div class="mySlides">
+			<img src="elite destiny/destiny4.jpg" style="width:50%;height:50%">
+		</div>
+
+		<div class="mySlides">
+			<img src="elite destiny/destiny6.jpg" style="width:50%;height:50%">
+		</div>
+
+		<!-- Next and previous buttons -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;&#10094;</a>
+		<a class="next" onclick="plusSlides(1)" style="float:middle">&#10095;&#10095;</a>
+
+		<!-- Thumbnail images -->
+		<div class="row">
+			<div class="column">
+				<img class="demo cursor" src="elite destiny/destiny5.jpg" style="width:100%" onclick="currentSlide(1)">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="elite destiny/destiny4.jpg" style="width:100%" onclick="currentSlide(2)">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="elite destiny/destiny6.jpg" style="width:100%" onclick="currentSlide(3)">
+			</div>
+		</div>
+	</div>
+
+	<div class="container-middle">
+		<div class="landname">PRIME ORIGIN</div><br />
+		<div class="desc">Location : Wataraka Roadd, Homagama</div>
+		<div class="desc">Avaliable blocks : 22 blocks</div>
+		<div class="desc">Blocks sizes : 17 pearchs</div>
+		<div class="desc">Perch price : Rs.576,000</div><br />
+		<p>PAYMENT DETAILS</p>
+		<div class="desc">Reservation - Rs 500,000</div>
+		<div class="desc">40% down payment within 14 days (Including Reservation)</div>
+		<div class="desc">Interest-free payment plans from employee or bank loan facilities can be arranged</div>
+	</div>
+
+	<script src="land.js"></script>
+
+	<button onclick="window.location.href='Paymentsession.php';">PAY NOW</button>
+	<a class="right"><button onclick="window.location.href='Conseller.php';">CONTACT DETAILS</button></a>
+	
+	<div class="footer-container">
+		<div class="flex">
+			<div class="inline">
+				<b>Corporate Head Office</b>
+				<p>New kandy Rd, Malabe.</p>
+				<p>+94 117 336 761</p>
+				<p>+94 117 823 613</p>
+			</div>
+			<div class="inline">
+				<b>Kurunagala Office</b>
+				<p>Lake Round, Kurunagala.</p>
+				<p>+94 117 336 761</p>
+				<p>+94 117 511 722</p>
+			</div>
+			<div class="inline">
+				<b>Galle Office</b>
+				<p>Lake Round, Kurunagala.</p>
+				<p>+94 117 336 761</p>
+				<p>+94 117 511 722</p>
+			</div>
+			<div class="inline">
+				<b>Hot Lines</b>
+				<p>+94 777 335 171</p>
+				<p>+94 777 415 256</p>
+				<p>+94 777 221 580</p>
+			</div>
+		</div>
+	</div>
+	<div class="bottomfooter">
+		<div class="footertcenter">
+			<a>© Ceylon Lands &Co - All right reserved</a>
+		</div>
+	</div>
+
+</body>
+</html>

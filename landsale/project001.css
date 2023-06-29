@@ -1,0 +1,338 @@
+/* All background colour */
+body {
+	background-color: #B6B6B4; /*gray cloud*/
+	/*background-image: url("logo/background.png");
+	background-attachment: fixed;
+	background-size: 80% 150%;
+	background-repeat: no-repeat;
+	background-position: right;*/
+}
+
+/* Header logo style */
+/* img{
+	width: 200px;
+	height: 100px;
+} */
+
+/*header style*/
+header {
+	background-color: #B6B6B4; /*gray cloud*/
+	margin: -8px;
+	padding: 8px;
+}
+
+	header p {
+		color: green;
+		text-align:right;
+		margin:-60px 7px 2px 4px;
+	}
+
+.lonav {
+	width: 15px;
+	height: 15px;
+	padding-right: 5px;
+}
+
+/* Style in the navigation bar */
+.navbar {
+	top: 100px;
+	left: 0px;
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
+	border-radius: 10px;
+	margin-top: -100px;
+}
+
+	/* Navbar */
+	.navbar a {
+		float: left;
+		padding: 10px 30px 10px 30px;
+		color: white;
+		text-decoration: none;
+		font-size: 17px;
+		font-family: Verdana;
+	}
+
+		/* Navigation bar when on mouse-over */
+		.navbar a:hover {
+			background-color: #04AA6D; /*green-cyan*/
+			transition: all .6s ease;
+		}
+
+/* Current/active page navigathion bar colour */
+.active {
+	background-color: #B8860B; /*darkgoldenrod*/
+}
+
+/* Styling search  */
+.search {
+	float: right;
+}
+
+	/* When active search page */
+	.search .active {
+		background-color: red;
+	}
+
+	.search a:hover {
+		background-color: red;
+	}
+
+/* Navbar image on mouse-over */
+.land a:hover {
+	background-color: #8b0000; /*dark red*/
+}
+
+/* Current/active search 
+.land .active {
+  background-color: #8b0000;*/ /*dark red
+}*/
+
+/* Horisonatal line styling */
+hr {
+	border: 3px solid black;
+	border-radius: 10px;
+	left: 0;
+	top: 140px;
+	width: 99%;
+}
+
+/* Login and register background image */
+.image {
+	background-image: url("millaniya/millaniya2.jpg");
+	background-repeat: no repeat;
+	background-size: 100%;
+}
+
+/* Land sale gallery */
+div.gallery {
+	margin: 0px 20px 50px 20px;
+	border: 1px solid #C4A484; /*Very dark grayish orange.*/
+	border-radius: 5%;
+	float: left;
+	width: 270px;
+	background-color: #555; /*Dark Grey*/
+}
+
+	/* What happen cursor on the gallery */
+	div.gallery:hover {
+		border: 1.3px solid #777; /*Kawasaki Lime Green*/
+		background-color: #04AA6D; /*green-cyan*/
+		transition: all .6s ease;
+		border-radius: 0%;
+	}
+
+	/* Description image */
+	div.gallery img {
+		border-top-left-radius: 5%;
+		border-top-right-radius: 5%;
+		width: 270px;
+		height: 259px;
+	}
+
+/* Price in description */
+div.desc {
+	font-family: Arial;
+	padding: 5px;
+	text-align: left;
+	color: #FFF; /*white*/
+}
+
+/* Location in description */
+div.loc {
+	font-size: 15px;
+	font-family: Arial;
+	padding: 5px;
+	text-align: left;
+	color: green;
+}
+
+/* Land name in description */
+div.lname {
+	font-size: 18px;
+	padding: 5px;
+	text-align: left;
+	color: #FFF; /*white*/
+}
+
+/* Description block size detail */
+div.size {
+	font-family: Arial;
+	font-size: 14px;
+	padding: 5px;
+	text-align: left;
+	color: #FFF; /*white*/
+}
+
+/* Display branches and hot lines in a new footer */
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	background-color: #FFF; /*white*/
+	height: 100%;
+	width: 100%;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-left: -8px;
+	margin-right: -8px;
+	padding: 5px 7.8px 5px 7.8px;
+	color: #555;
+	font-family: Calibri;
+}
+
+/* set footer-container details in a row */
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+/*set footer-container details into a same line*/
+.inline {
+	margin: 10px 55px 15px 70px;
+	display: inline-block;
+}
+
+/* Footer-container p tag details */
+p {
+	margin: 0px;
+}
+
+/* Footer center texts */
+.footertcenter {
+	margin: 7.5px;
+	text-align: center;
+	color: darkorange;
+	font-family: calibri;
+	font-size: 15px;
+}
+
+/* Footer style */
+.bottomfooter {
+	display: flex;
+	flex-direction: column;
+	background-color: #555;
+	height: 30px;
+	width: 100%;
+	font-family: Calibri;
+	font-size: 18px;
+	margin: -8px;
+	padding: 5px 7.5px 5px 7.5px;
+}
+
+/*about us high table images*/
+.ceoimg {
+	color: white;
+	margin-left: 20px;
+	margin-bottom: 60px;
+}
+
+/*about us high table names*/
+.bold {
+	font-size: 25px;
+	font-family: Harlow Solid Italic;
+	margin: 80px 40px 80px 40px;
+	float: justify;
+}
+
+/*about us high table position*/
+.position {
+	font-size: 18px;
+}
+
+/* Lands description from moddle */
+.container-middle {
+	display: flex;
+	flex-direction: column;
+	margin-left: 55%;
+	margin-right: 1%;
+	margin-top: -30%;
+}
+
+/* single land name*/
+.landname {
+	font-family: Arial;
+	font-size: 23px;
+	padding: 5px;
+	text-align: center;
+	color: rgb(16, 116, 16); /*white*/
+}
+
+P {
+	font-family: Arial;
+}
+
+/* Contact information in sell lands page and background */
+.continfo {
+	font-family: Cascadia Mono;
+	background: white;
+	width: 50%;
+	padding-left: 20px;
+	padding-right: 15px;
+	border-radius: 5px;
+	margin-left: 280px;
+}
+
+/* Set 2x2 in a row*/
+.continline {
+	display: inline-block;
+}
+
+/*text box sizes and styles*/
+input[type="text"], input[type="email"], input[type="text"], input[type="file"], input[type="button"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	width: 300px;
+	height: 35px;
+	margin-bottom: 20px;
+	color: #000;
+	font-size: 16px;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+/* Land informations in the sell web page*/
+.landinfo {
+	font-family: Cascadia Mono;
+	background: white;
+	width: 50%;
+	padding-left: 20px;
+	padding-right: 15px;
+	border-radius: 5px;
+	margin-left: 280px;
+}
+
+	.landinfo input[type="text"], input[type="file"], input[type="button"] {
+		width: 610px;
+	}
+
+/* Float the contact button to the right */
+.right {
+	margin-left: 130px;
+}
+
+button {
+	height: 30px;
+	margin-left: 5%;
+	margin-top: 30px;
+	position: absolute;
+	border: none;
+	color: #ffffff;
+	background-color: #B8860B;
+	font-size: 15px;
+	border-radius: 8px;
+	padding: 8px 25px 8px 25px;
+}
+
+input[type="button"] {
+	color: #ffffff;
+	background-color: #B8860B;
+	font-size: 15px;
+	border: none;
+}
+
+	button:hover, input[type="button"]:hover {
+		background-color: rgb(29, 95, 29);
+	}

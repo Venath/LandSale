@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(logo/common-lands.webp);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+ .loginbox{
+    width: 380px;
+    height: 500px;
+    background: #fff;
+    color: #fff;
+    top: 25%;
+    left: 37%;
+    position: absolute;
+    transform: translate (-50% , -50%);
+    box-sizing: border-box;
+    padding : 70px 30px;   
+	border-radius:5px;	
+	opacity:85%;
+ }
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -53px;
+    left: 125px;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+	color:#000;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+
+}
+    .loginbox input[type="text"], input[type="password"], input[type="email"] {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: #000;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+
+.button{
+  color: #fff;
+  background: #009579;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  transition: 0.4s;
+ border-radius:5px;	
+}
+.pwdformat{
+	color: #ff0000;
+	font-size: 10px;
+}
+.check {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    margin-left:300px;
+    display: flex;
+    flex-direction: column;
+}
+.loginbox .radiob{
+	 width: 100%;
+    margin-bottom: 100px;
+	
+};
+
+.eye-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+	color:black;
+}
+
+.loginbox input[type="radio"]{
+    margin-left:45px;
+    margin-bottom: 20px;
+	box-shadow: none;
+}

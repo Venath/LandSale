@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Password Reset</title>
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" type="text/css" href="stylelogin.css">
+
+    <script>
+        function togglePasswordVisibility() {
+            var passwordInput = document.getElementById("passwordInput");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+            } else {
+                passwordInput.type = "password";
+            }
+        }
+    </script>
+    <script>
+        function togglePasswordVisibility2() {
+            var passwordInput = document.getElementById("passwordInput2");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+            } else {
+                passwordInput.type = "password";
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div class="loginbox">
+        <img src="logo.png" class="avatar">
+        <h1>Login</h1>
+        <form action="Forgotpassword.php" method="POST">
+
+           <input type="text" name="username"  placeholder="Your username (First name)" style="width: 100%; margin-bottom: 20px;box-shadow: 0 3px 10px rgba(0,0,0,0.3);">
+
+
+            <input type="password" name="password1" id="passwordInput" placeholder="Type New Password" style="width: 100%; margin-bottom: 20px;box-shadow: 0 3px 10px rgba(0,0,0,0.3);">
+            <div class="check">
+                <input type="checkbox" onclick="togglePasswordVisibility()">
+            </div>
+
+            <input type="password" name="password2" id="passwordInput2" placeholder="Confirm New Password" style="width: 100%; margin-bottom: 20px;box-shadow: 0 3px 10px rgba(0,0,0,0.3);">
+            <div class="check">
+                <input type="checkbox" onclick="togglePasswordVisibility2()">
+            </div>
+            <input type="submit" name="submit" value="Login" style="width: 100%; margin-bottom: 20px;box-shadow: 0 3px 10px rgba(0,0,0,0.3);">
+        </form>
+    </div>
+   
+</body>
+</html>
